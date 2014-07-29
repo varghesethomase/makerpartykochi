@@ -1,0 +1,106 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+            font-family: 'testfont';
+            src: url('../fonts/HallandaleSquareInline.ttf');
+        }
+.section-overlay{background-color:rgba(0,0,0,0.6);position:absolute;width:100%;height:100%;left:0;top:0;}
+header {
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    width: 100%;
+    height: 170px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    background-color:transparent;
+}
+header h1 {
+    text-align: center;
+    max-width: 385px;
+    max-height:204px;
+    margin: 23px auto 0px;
+    position: relative;
+    z-index: 1;
+}
+header h1 img{
+    max-width: 385px;
+    max-height:204px;
+}
+nav {
+    position: absolute;
+    top: 83px;
+    width: 100%;
+    height: 85px;
+    background: url('../img/BG-nav.png') no-repeat scroll center center transparent;
+    display:block;
+}
+.wrapper {
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1200px;
+}
+nav #toggle {
+    display: none;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    text-indent: -999em;
+    background: url('../img/BG-toggle-icon.png') no-repeat scroll center center transparent;
+}
+.upper {
+    text-transform: uppercase;
+}
+nav ul {
+    width: 49%;
+    line-height: 85px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+nav ul a{
+    /*color:#00b0b6;*/
+}
+nav ul a:hover{
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav .pull-left li{
+    margin: 0px 7% 0px 0px;
+}
+nav .pull-right li{
+    margin: 0px 0px 0px 8%;
+}
+.landing{
+    /*background-color:#f1f1f1;*/
+    background:url('../img/cover1.jpg') repeat scroll center center / cover transparent;
+}
+.date{
+    font-family: 'testfont';
+    color:#fff;
+    font-size:90px;
+    padding-top:20%;
+    letter-spacing:5px;
+}
+.coverpic{
+    height:480px;
+}
+.webmakermotorow{
+    background-color:#00b0b6;
+    opacity:0.9;
+    box-shadow: 2px 2px 2px #fff;
+    font-weight: 300;
+    
+}
+.webmakermoto{
+    padding-top:30px;
+    font-size:35px;
+    line-height:35px;
+    color:#fff;
+}
