@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    if($(window).height()>480){
-        $('.webmakermotorow').css('min-height',$(window).height()-480);
-    }
+	$('section').css('min-height',$(window).height());
+    $('.date').css('top',$('header h1').height()+50);
+
 });
